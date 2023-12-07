@@ -301,9 +301,7 @@ a {
   justify-content: center; 
 }
 
-.team-media-list-li {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .team-media-list-item {
   display: flex;
   justify-content: center;
@@ -314,6 +312,7 @@ a {
   background-color: #4d5ae5;
   flex-shrink: 0;
   padding: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .team-media-list-item:hover,
@@ -356,6 +355,7 @@ a {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay {
   background-color: #4d5ae5;
@@ -378,7 +378,7 @@ a {
 }
 
 .portfolio-list:hover .overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-list:hover,
