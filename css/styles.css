@@ -415,6 +415,7 @@ a {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-container {
@@ -472,8 +473,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
   flex-shrink: 0;
@@ -484,4 +485,8 @@ a {
 .footer-media-list-item:hover,
 .footer-media-list-item:focus {
   background-color: #31d0aa;
+}
+
+.icon-footer {
+  fill: #f4f4fd;
 }
