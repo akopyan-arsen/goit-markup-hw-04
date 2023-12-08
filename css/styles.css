@@ -46,7 +46,9 @@ a {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: auto;
 }
+
 .container.header-container {
   display: flex;
   align-items: center;
